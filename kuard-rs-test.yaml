@@ -5,7 +5,7 @@ metadata:
     name: kuard-rs-test
   name: kuard-rs-test
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: kuard-rs-test-pod
